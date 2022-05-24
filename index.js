@@ -46,17 +46,3 @@ program
 program.parse(process.argv);
 const options = program.opts();
 invokeAction(options);
-
-// invokeAction({ action: "list" });
-
-// const id = "1";
-// invokeAction({ action: "get", id });
-
-// const deletedId = "10";
-// invokeAction({ action: "remove", id: deletedId });
-
-// const name = "jafhhfhfhne";
-// const email = "sgfdfgd@jdfhgj";
-// const phone = "32342";
-
-// invokeAction({ action: "add", name, email, phone });
